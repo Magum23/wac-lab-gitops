@@ -1,8 +1,8 @@
 apiVersion: kustomize.config.k8s.io/v1alpha1
 kind: Component
 images:
-- name: magum/ambulance-ufe
-  newName: magum/ambulance-ufe
+- name: magum/wac-lab-ufe
+  newName: magum/wac-lab-ufe
   newTag: 1.0.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
 
 replacements:
@@ -11,13 +11,13 @@ replacements:
          group: fe.milung.eu
          version: v1
          kind: WebComponent
-         name: magum-ambulance-ufe
+         name: wac-lab-ufe
      fieldPaths:
          - spec.hash-suffix
    source:
      version: v1
      kind: Deployment
-     name:  magum-ambulance-ufe-deployment
+     name: wac-lab-ufe-deployment
      fieldPath: spec.template.spec.containers.0.image
      options:
          delimiter: ':'

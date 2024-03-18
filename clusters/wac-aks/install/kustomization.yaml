@@ -5,10 +5,10 @@ namespace: wac-hospital
 
 commonLabels:
  app.kubernetes.io/part-of: wac-hospital
- app.kubernetes.io/name: magum-ambulance-wl
+ app.kubernetes.io/name: wac-lab-ufe
 
 resources:
- - ../../../apps/magum-ambulance-ufe
+ - ../../../apps/wac-lab-ufe
 
 
 components:
