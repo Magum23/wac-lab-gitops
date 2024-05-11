@@ -11,6 +11,11 @@ commonLabels:
 resources:
   - ../../../apps/wac-lab-ufe
   - ../../../infrastructure/fluxcd
+  - ../../../apps/wac-lab-webapi
 
 components:
   - ../../../components/version-developers
+  - https://github.com/Magum23/wac-lab-webapi//deployments/kustomize/components/mongodb
+
+patches:
+- path: patches/wac-lab-webapi.service.yaml
