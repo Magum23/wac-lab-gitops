@@ -9,6 +9,7 @@ commonLabels:
 
 resources:
  - ../../../apps/wac-lab-ufe
+ - ../../../apps/wac-lab-webapi
 
 
 components:

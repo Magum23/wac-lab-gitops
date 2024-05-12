@@ -4,6 +4,9 @@ images:
 - name: magum/wac-lab-ufe
   newName: magum/wac-lab-ufe
   newTag: 1.0.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+- name: magum/wac-lab-webapi
+  newName: magum/wac-lab-webapi
+  newTag: 1.0.0
 
 replacements:
  - targets:
