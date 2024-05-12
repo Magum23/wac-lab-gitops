@@ -12,6 +12,7 @@ resources:
   - ../../../apps/wac-lab-ufe
   - ../../../infrastructure/fluxcd
   - ../../../apps/wac-lab-webapi
+  - ../../../apps/mongo-express
 
 components:
   - ../../../components/version-developers
