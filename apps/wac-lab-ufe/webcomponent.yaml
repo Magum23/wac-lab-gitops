@@ -16,7 +16,7 @@ spec:
       details: Sprava biochemickeho laboratoria
       attributes:
       - name: api-base
-        value: http://localhost:30081/api
+        value: /wac-lab-api
       - name: lab-id
         value: magulahrncar
   preload: false # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou
