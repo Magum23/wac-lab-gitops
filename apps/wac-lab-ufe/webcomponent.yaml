@@ -17,7 +17,7 @@ spec:
       attributes:
       - name: api-base
         value: /wac-lab-api
-      - name: lab-id
+      - name: laboratory-id
         value: laboratory-biochemistry
   preload: false # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou
   proxy:
