@@ -9,7 +9,7 @@ spec:
     # - umiestnený v namespace wac-hospital
   navigation:
     - element:
-        lab-se-list # element, ktorý bude vložený na stránku
+        lab-app # element, ktorý bude vložený na stránku
         # pri navigácii na zoznam čakajúcich
       path: wac-lab-ufe # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
       title: Laboratory by Magula and Hrncar # názov mikro aplikácie
@@ -18,7 +18,7 @@ spec:
       - name: api-base
         value: /wac-lab-api
       - name: lab-id
-        value: magulahrncar
+        value: laboratory-biochemistry
   preload: false # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou
   proxy:
     true # pre komponenty v rámci klastra, neprístupné na verejnej sieti
