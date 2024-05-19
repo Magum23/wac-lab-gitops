@@ -4,5 +4,5 @@ metadata:
   name: wac-lab-webapi
   namespace: wac-hospital
 spec:
-  image: magum/wac-lab-webapi
+  image: magum/lab-webapi
   interval: 1m0s
