@@ -3,7 +3,7 @@ kind: Component
 images:
 - name: magum/wac-lab-ufe
   newName: magum/wac-lab-ufe
-  newTag: 1.1.1  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  newTag: 1.1.2  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
 - name: magum/lab-webapi
   newName: magum/lab-webapi
   newTag: 1.1.1
